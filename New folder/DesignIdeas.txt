@@ -1,0 +1,10 @@
+Font Family
+
+Tahoma, Geneva, sans-serif
+
+Color Scheme
+
+Each section of text will very in color. The margins will be a Grey. Text will be a color that is easy to read.
+
+There will be a navigation bar along the top for the reader to skip to certain sections.
+
