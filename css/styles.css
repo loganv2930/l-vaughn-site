@@ -1,14 +1,12 @@
 html {
-  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
-  url(../img/Alley.jpg) no-repeat center center fixed;
-  background-size: 100% auto;
-  background-repeat: repeat;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),;
+  background-size: 100% auto !important;
+  background-repeat: repeat !important;
 }
 
 body {
   font-family: Arial, sans-serif;
 }
-
 .contact-form{
 	margin-left:auto;
 	margin-right:auto;
@@ -20,6 +18,14 @@ body {
 	width: 200px;
 	color: #000000;
 	}
+.navbar-inverse {
+  background-color: #0D2B21;
+}
+
+.body-container {
+  margin-top: 5% !important;
+}
+
 
 /* IPhone */
 @media only screen and (min-width : 320px)
@@ -27,13 +33,13 @@ body {
 	h1 {
 		text-align: center;
 		margin-top: 5%;
-		color: #fff;
+		color: #000000;
 	}
 
 	h2 {
 		text-align: center;
 		margin-top: 2%;
-		color: #fff;
+		color: #000000;
 	}
 
 	img {
@@ -44,17 +50,18 @@ body {
 		height: 200px;
 	}
 
+
 	.top-p {
 		text-align: center;
 		margin-top: 5%;
 		margin-left: 20%;
 		margin-right: 20%;
 		line-height: 1em;
-		color: #fff;
+		color: #000000;
 	}
 
 	.skills-list {
-		color: #FFF;
+		color: #000000;
 		list-style: none;
 		text-align: center;
 		margin-top: 3%;
@@ -69,7 +76,30 @@ body {
 	}
 
 	.More {
-		color: #FFF;
+		color: #000000;
+		list-style: none;
+		text-align: center;
+		margin-top: 3%;
+		line-height: 2em;
+	}
+
+	.skills-list {
+		color: #000000;
+		list-style: none;
+		text-align: center;
+		margin-top: 3%;
+		line-height: 2em;
+	}
+
+	.skills-list li {
+		display: inline-block;
+		text-align: center;
+		padding: 6px;
+		line-height: 2em
+	}
+
+	.More {
+		color: #000000;
 		list-style: none;
 		text-align: center;
 		margin-top: 3%;
@@ -88,13 +118,13 @@ body {
 	h1 {
 		text-align: center;
 		margin-top: 5%;
-		color: #fff;
+		color: #000000;
 	}
 
 	h2 {
 		text-align: center;
 		margin-top: 2%;
-		color: #fff;
+		color: #000000;
 	}
 
 	img {
@@ -111,11 +141,11 @@ body {
 		margin-left: 20%;
 		margin-right: 20%;
 		line-height: 1em;
-		color: #fff;
+		color: #000000;
 	}
 
 	.skills-list {
-		color: #FFF;
+		color: #000000;
 		list-style: none;
 		text-align: center;
 		margin-top: 3%;
@@ -130,7 +160,7 @@ body {
 	}
 
 	.More {
-		color: #FFF;
+		color: #000000;
 		list-style: none;
 		text-align: center;
 		margin-top: 3%;
@@ -149,13 +179,13 @@ body {
 	h1 {
 		text-align: center;
 		margin-top: 5%;
-		color: #fff;
+		color: #000000;
 	}
 
 	h2 {
 		text-align: center;
 		margin-top: 2%;
-		color: #fff;
+		color: #000000;
 	}
 
 	img {
@@ -172,11 +202,11 @@ body {
 		margin-left: 20%;
 		margin-right: 20%;
 		line-height: 1em;
-		color: #fff;
+		color: #000000;
 	}
 
 	.skills-list {
-		color: #FFF;
+		color: #000000;
 		list-style: none;
 		text-align: center;
 		margin-top: 3%;
@@ -191,7 +221,7 @@ body {
 	}
 
 	.More {
-		color: #FFF;
+		color: #000000;
 		list-style: none;
 		text-align: center;
 		margin-top: 3%;
@@ -210,13 +240,13 @@ body {
 	h1 {
 		text-align: center;
 		margin-top: 5%;
-		color: #fff;
+		color: #000000;
 	}
 
 	h2 {
 		text-align: center;
 		margin-top: 2%;
-		color: #fff;
+		color: #000000;
 	}
 
 	img {
@@ -233,11 +263,11 @@ body {
 		margin-left: 20%;
 		margin-right: 20%;
 		line-height: 1em;
-		color: #fff;
+		color: #000000;
 	}
 
 	.skills-list {
-		color: #FFF;
+		color: #000000;
 		list-style: none;
 		text-align: center;
 		margin-top: 3%;
@@ -252,7 +282,7 @@ body {
 	}
 
 	.More {
-		color: #FFF;
+		color: #000000;
 		list-style: none;
 		text-align: center;
 		margin-top: 3%;
@@ -263,5 +293,6 @@ body {
 		display: block;
 		text-align: center;
 	}
+
 }
 
