@@ -3,9 +3,29 @@
 	<head>
 	<title>Logan Vaughn</title>
 	<link href="css/styles.css" type="text/css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
 	</head>
 	<body>
-		<div class="container">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+		<div class="body-container">
 		<h1>Welcome</h1>
 			<img src="img/me.jpg" alt="About Me Picture" title="Logan" />
 				<p class="top-p"> Hello, My name is Logan Vaughn and I am currently a student at the University of Toledo. I am working slowly towards obtaining a bachelor's degree in Information Technology Engineering. I also work at a local ISP as a Desktop Support Specialist.</p>
@@ -18,10 +38,11 @@
 		<h2>More About Me</h2>
 			<ul class="More">
 			<li> I have lived in Toledo my whole life </li>
-			<li> I enjoy bowling, Golfing, Basketball, Baseball and Video Games </li>
+			<li> I enjoy Bowling, Golfing, Basketball, Baseball and Video Games </li>
+		</div>
 		<div class="contact">
-			<h2> Contact Me For More Info</h2>
-			<form class="contact-form" id="form">
+		<h2> Contact Me For More Info</h2>
+		<form class="contact-form" id="form">
 			<p class="name">
 				<input name="name" type="text" class="contact-input" placeholder="Enter Your Name" id="name" />
 			</p>
@@ -34,8 +55,8 @@
 		<div class="submit">
 			<input type="submit" value="SUBMIT" />
 		</div>
-    			</form>
-		</div>
+    </form>
 		
+	
 	</body>
 </html>
