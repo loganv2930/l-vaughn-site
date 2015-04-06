@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-family: Arial, sans-serif;
+ font-family: 'Roboto Slab', serif;
 }
 .contact-form{
 	margin-left:auto;
@@ -34,6 +34,7 @@ body {
 		text-align: center;
 		margin-top: 5%;
 		color: #000000;
+		font-family: 'Press Start 2P', cursive;
 	}
 
 	h2 {
