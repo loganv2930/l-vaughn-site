@@ -1,28 +1,106 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	<title>Logan Vaughn</title>
-	<link href="css/styles.css" type="text/css" rel="stylesheet" />
-	</head>
-	<body>
-		<div class="body-container">
-		<h1>Welcome</h1>
-			<img src="img/me.jpg" alt="About Me Picture" title="Logan" />
-				<p class="top-p"> Hello, My name is Logan Vaughn and I am currently a student at the University of Toledo. I am working slowly towards obtaining a bachelor's degree in Information Technology Engineering. I also work at a local ISP as a Desktop Support Specialist.</p>
-		<h2>Skills</h2>
-			<ul class="skills-list">
-			<li> Troubleshooting hardware/software issues </li>
-			<li> Virus Removal </li>
-			<li> Physical Network Troubleshooting </li>
-			<li> Installing Physical Networking Infrastructure </li>
-		<h2>More About Me</h2>
-			<ul class="More">
-			<li> I have lived in Toledo my whole life </li>
-			<li> I enjoy Bowling, Golfing, Basketball, Baseball and Video Games </li>
-		</div>
-		<div class="contact">
-		<h2> Contact Me For More Info</h2>
-		<form class="contact-form" id="form">
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Logan Vaughn site">
+    <meta name="author" content="Logan Vaughn">
+    <meta name="keywords" content="Logan Vaughn, Awesome"
+    <title>LoganV2930-final-project</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+	<script src="http://use.edgefonts.net/indie-flower:n4:default;expletus-sans:n5,n4:default.js" type="text/javascript"></script>
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Logan Vaughn</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#facts">Facts</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                  <h1>Logan Vaughn</h1>
+				  <img src="../logan/images/me.jpg" alt="picture" title="Logan" />
+                  <p>Desktop Support Specialist by Day</p>
+				  <p>Ladies Man by Night</p>
+                  <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>About Me</h1>
+					<p>Born and raised in Toledo, Ohio.</p>
+					<p>Currently attending The University of Toledo</p>
+					<p>Employed at CISP as a Desktop Support Specialist</p>
+					<p>Hope to one day become a Systems Engineer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="facts" class="fact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                  <h1>Random Facts</h1>
+				  <p>There are more than 10 million bricks in the Empire State Building</p>
+				  <p>Earthworms have 5 hearts</p>
+				  <p>Two-thirds of the world's eggplant is grown in New Jersey</p>
+				  <p>At latitude 60 degrees south you can sail all the way around the world</p>
+				  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                  <h1>Contact Me </h1>
+                  <form class="contact-form" id="form">
 			<p class="name">
 				<input name="name" type="text" class="contact-input" placeholder="Enter Your Name" id="name" />
 			</p>
@@ -36,15 +114,33 @@
 			<input type="submit" value="SUBMIT" />
 		</div>
     </form>
-    /*<script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    
+    <script>
   	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  	ga('create', 'UA-61737871-1', 'auto');
+
+  	ga('create', 'UA-61737871-2', 'auto');
   	ga('send', 'pageview');
-</script>*/
-		
-	
-	</body>
+
+	</script>
+
+</body>
+
+
 </html>
