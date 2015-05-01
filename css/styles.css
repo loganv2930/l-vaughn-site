@@ -1,296 +1,98 @@
-html {
-  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),;
-  background-size: 100% auto !important;
-  background-repeat: repeat !important;
+body {
+    width: 100%;
+    height: 100%;
+	background-image:url(../img/bluecircuit.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	
+	
 }
 
-body {
- font-family: Arial, sans-serif;
+html {
+    width: 100%;
+    height: 100%;
 }
+
+img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 5%;
+	width: 25%;
+	height: 35%;
+}
+
 .contact-form{
 	margin-left:auto;
 	margin-right:auto;
 	width: 600px;
+	padding-top: 50px;
 	}
+
 .contact-input{
 	padding: 10px;
 	border: 2px solid #000000;
-	width: 200px;
+	width: 400px;
 	color: #000000;
 	}
 
-.body-container {
-  margin-top: 5% !important;
+@media(min-width:767px) {
+    .navbar {
+	padding-top: 20px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 20px;
+	-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+	-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+	transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
 }
 
-
-/* IPhone */
-@media only screen and (min-width : 320px)
-{
-	h1 {
-		text-align: center;
-		margin-top: 5%;
-		color: #000000;
+.intro-section {
+	height: 100%;
+	padding-top: 150px;
+	text-align: center;
+	background: linear-gradient(to bottom, rgba(255, 255, 255, .9),  rgba(255, 255, 255, .9));
+	padding-left: 0px;
+	width: 80%;
+	margin-left: 10%;
+}
 	
-	}
-
-	h2 {
-		text-align: center;
-		margin-top: 2%;
-		color: #000000;
-	}
-
-	img {
-		display: block;
-		margin: 0 auto;
-		margin-top: 3%;
-		width: 200px;
-		height: 200px;
-	}
 
 
-	.top-p {
-		text-align: center;
-		margin-top: 5%;
-		margin-left: 20%;
-		margin-right: 20%;
-		line-height: 1em;
-		color: #000000;
-	}
-
-	.skills-list {
-		color: #000000;
-		list-style: none;
-		text-align: center;
-		margin-top: 3%;
-		line-height: 2em;
-	}
-
-	.skills-list li {
-		display: inline-block;
-		text-align: center;
-		padding: 6px;
-		line-height: 2em
-	}
-
-	.More {
-		color: #000000;
-		list-style: none;
-		text-align: center;
-		margin-top: 3%;
-		line-height: 2em;
-	}
-
-	.skills-list {
-		color: #000000;
-		list-style: none;
-		text-align: center;
-		margin-top: 3%;
-		line-height: 2em;
-	}
-
-	.skills-list li {
-		display: inline-block;
-		text-align: center;
-		padding: 6px;
-		line-height: 2em
-	}
-
-	.More {
-		color: #000000;
-		list-style: none;
-		text-align: center;
-		margin-top: 3%;
-		line-height: 2em;
-	}
-
-	.More li {
-		display: block;
-		text-align: center;
-	}
+.about-section {
+    height: 100%;
+	padding-top: 150px;
+	text-align: center;
+	background: linear-gradient(to bottom, rgba(255, 255, 255, .9),  rgba(255, 255, 255, .9));
+	padding-left: 0px;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10px;
 }
 
-/* Small Devices (phones) */
-@media only screen and (min-width : 480px)
-{
-	h1 {
-		text-align: center;
-		margin-top: 5%;
-		color: #000000;
-	}
-
-	h2 {
-		text-align: center;
-		margin-top: 2%;
-		color: #000000;
-	}
-
-	img {
-		display: block;
-		margin: 0 auto;
-		margin-top: 3%;
-		width: 200px;
-		height: 200px;
-	}
-
-	.top-p {
-		text-align: center;
-		margin-top: 5%;
-		margin-left: 20%;
-		margin-right: 20%;
-		line-height: 1em;
-		color: #000000;
-	}
-
-	.skills-list {
-		color: #000000;
-		list-style: none;
-		text-align: center;
-		margin-top: 3%;
-		line-height: 2em;
-	}
-
-	.skills-list li {
-		display: inline-block;
-		text-align: center;
-		padding: 6px;
-		line-height: 2em
-	}
-
-	.More {
-		color: #000000;
-		list-style: none;
-		text-align: center;
-		margin-top: 3%;
-		line-height: 2em;
-	}
-
-	.More li {
-		display: block;
-		text-align: center;
-	}
+.fact-section {
+    height: 100%;
+	padding-top: 150px;
+	text-align: center;
+	background: linear-gradient(to bottom, rgba(255, 255, 255, .9),  rgba(255, 255, 255, .9));
+	padding-left: 0px;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10px;
 }
 
-/* Medium Devices (Desktops) */
-@media only screen and (min-width : 992px)
-{
-	h1 {
-		text-align: center;
-		margin-top: 5%;
-		color: #000000;
-	}
-
-	h2 {
-		text-align: center;
-		margin-top: 2%;
-		color: #000000;
-	}
-
-	img {
-		display: block;
-		margin: 0 auto;
-		margin-top: 3%;
-		width: 200px;
-		height: 200px;
-	}
-
-	.top-p {
-		text-align: center;
-		margin-top: 5%;
-		margin-left: 20%;
-		margin-right: 20%;
-		line-height: 1em;
-		color: #000000;
-	}
-
-	.skills-list {
-		color: #000000;
-		list-style: none;
-		text-align: center;
-		margin-top: 3%;
-		line-height: 2em;
-	}
-
-	.skills-list li {
-		display: inline-block;
-		text-align: center;
-		padding: 6px;
-		line-height: 2em
-	}
-
-	.More {
-		color: #000000;
-		list-style: none;
-		text-align: center;
-		margin-top: 3%;
-		line-height: 2em;
-	}
-
-	.More li {
-		display: block;
-		text-align: center;
-	}
+.contact-section {
+	height: 100%;
+	padding-top: 150px;
+	text-align: center;
+	background: linear-gradient(to bottom, rgba(255, 255, 255, .9),  rgba(255, 255, 255, .9));
+	padding-left: 0px;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10px;
+	margin-bottom: 50px;
 }
-
-/* Large Devices (Wide Screen) */
-@media only screen and (min-width : 1200px)
-{
-	h1 {
-		text-align: center;
-		margin-top: 5%;
-		color: #000000;
-	}
-
-	h2 {
-		text-align: center;
-		margin-top: 2%;
-		color: #000000;
-	}
-
-	img {
-		display: block;
-		margin: 0 auto;
-		margin-top: 3%;
-		width: 200px;
-		height: 200px;
-	}
-
-	.top-p {
-		text-align: center;
-		margin-top: 5%;
-		margin-left: 20%;
-		margin-right: 20%;
-		line-height: 1em;
-		color: #000000;
-	}
-
-	.skills-list {
-		color: #000000;
-		list-style: none;
-		text-align: center;
-		margin-top: 3%;
-		line-height: 2em;
-	}
-
-	.skills-list li {
-		display: inline-block;
-		text-align: center;
-		padding: 6px;
-		line-height: 2em
-	}
-
-	.More {
-		color: #000000;
-		list-style: none;
-		text-align: center;
-		margin-top: 3%;
-		line-height: 2em;
-	}
-
-	.More li {
-		display: block;
-		text-align: center;
-	}
-
-}
-
